@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LIN's Community</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   <header>
+    <a href="#" class="logo">LIN's Community</a>
+    <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="https://wa.me/qr/SJRINOQBVZD2O1">Buy Rank</a></li>
+        <li><a href="https://discord.gg/pxs6BvbjGe">Discord</a></li>
+    </ul>
+   </header>
+   <section>
+    <img src="stars.png" id="stars">
+    <img src="moon.png" id="moon">
+    <img src="mountains_behind.png" id="mountains_behind">
+    <h2 id="text"></h2>
+    <a href="https://linktr.ee/VlinzOP" id="btn">Join</a>
+    <img src="mountains_front.png" id="mountains_front">
+   </section>
+   <div class="sec">
+    <h2>LIN's Community</h2>
+    <p>Fitur Server Minecraft LIN's Community:</p>
+    <ul>
+        <li>Lobby</li>
+        <li>Rank</li>
+        <li>Shop</li>
+        <li>Pvp</li>
+        <li>Quest</li>
+        <li>Plot rumah</li>
+    </ul>
+    <div>
+
+        <script>
+            window.addEventListener('scroll', function(){
+                let value = window.scrollY;
+                stars.style.left = value * 0.25 + 'px'
+                moon.style.top = value * 1.05 + 'px'
+                text.marginRight = value * 4 + 'px'
+            })
+        </script>
+</body>
+</html>
